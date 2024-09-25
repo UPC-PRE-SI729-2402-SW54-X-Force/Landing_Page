@@ -1,19 +1,25 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
+  imports: [
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatListModule,
+    RouterModule,
+  ],
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css'],
-  imports: [CommonModule, RouterModule, MatButtonModule]
+  styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  isMenuOpen: boolean = false;
-
-  toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
-  }
+  menuOpened = false;
 }
