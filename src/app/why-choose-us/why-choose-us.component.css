@@ -1,12 +1,12 @@
 .why-choose-us {
   padding: 50px 20px;
-  background-color: #ffffff; /* Gris claro */
+  background-color: #ffffff;
   text-align: center;
 }
 
 .why-choose-us h2 {
   font-size: 36px;
-  color: #2C3E50; /* Azul marino */
+  color: #2C3E50;
   margin-bottom: 40px;
 }
 
@@ -30,17 +30,17 @@
 
 .reason h3 {
   font-size: 24px;
-  color: #2ECC71; /* Verde esmeralda */
+  color: #2ECC71;
   margin-bottom: 15px;
 }
 
 .reason p {
   font-size: 16px;
-  color: #7f8c8d; /* Gris oscuro */
+  color: #7f8c8d;
   line-height: 1.5;
 }
 
-/* Estilos para pantallas pequeñas */
+
 @media (max-width: 768px) {
   .reasons {
     flex-direction: column;

@@ -1,12 +1,12 @@
 .safety {
   padding: 60px 20px;
-  background-color: #f9f9f9; /* Fondo gris claro */
+  background-color: #f9f9f9;
   text-align: center;
 }
 
 .safety h2 {
   font-size: 36px;
-  color: #2C3E50; /* Azul marino */
+  color: #2C3E50;
   margin-bottom: 40px;
 }
 
@@ -35,13 +35,13 @@
 
 .measure h3 {
   font-size: 24px;
-  color: #2ECC71; /* Verde esmeralda */
+  color: #2ECC71; /
   margin-bottom: 10px;
 }
 
 .measure p {
   font-size: 16px;
-  color: #7f8c8d; /* Gris */
+  color: #7f8c8d;
   margin-bottom: 20px;
 }
 
@@ -49,12 +49,12 @@
   display: inline-block;
   font-size: 16px;
   color: #FFFFFF;
-  background-color: #2ECC71; /* Verde esmeralda */
+  background-color: #2ECC71;
   padding: 10px 20px;
   border-radius: 25px;
   text-decoration: none;
 }
 
 .btn-learn-more:hover {
-  background-color: #27AE60; /* Verde esmeralda más oscuro */
+  background-color: #27AE60;
 }
