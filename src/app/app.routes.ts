@@ -1,7 +1,9 @@
 import { Routes } from '@angular/router';
-import { NavbarComponent } from './navbar/navbar.component';
+import { HeroComponent } from './hero/hero.component';
+
 
 export const routes: Routes = [
-  { path: '', component: NavbarComponent },
+  { path: '', component: HeroComponent }, // Ruta para HeroComponent en la raíz
+
   { path: '**', redirectTo: '' }
 ];
