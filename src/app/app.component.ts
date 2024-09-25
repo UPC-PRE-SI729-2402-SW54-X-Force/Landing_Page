@@ -10,6 +10,7 @@ import { SafetyComponent } from './safety/safety.component';
 import { PremiumPlansComponent } from './premium-plans/premium-plans.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component'; // Importa el componente de footer
 
 @Component({
   selector: 'app-root',
@@ -27,7 +28,8 @@ import { ContactComponent } from './contact/contact.component';
     SafetyComponent,
     PremiumPlansComponent,
     TeamComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ]
 })
 export class AppComponent {

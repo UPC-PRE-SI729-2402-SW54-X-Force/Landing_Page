@@ -7,6 +7,7 @@ import { SafetyComponent } from './safety/safety.component';
 import { PremiumPlansComponent } from './premium-plans/premium-plans.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component'; // Importa el componente de footer
 
 export const routes: Routes = [
   { path: '', component: HeroComponent },
@@ -17,5 +18,6 @@ export const routes: Routes = [
   { path: 'premium-plans', component: PremiumPlansComponent },
   { path: 'team', component: TeamComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'footer', component: FooterComponent },
   { path: '**', redirectTo: '' }
 ];
