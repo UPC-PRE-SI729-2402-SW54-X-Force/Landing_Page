@@ -1,0 +1,76 @@
+.sidenav-container {
+  height: 100vh;
+}
+
+.mobile-sidenav {
+  width: 50%;
+  height: 100%;
+}
+
+mat-toolbar {
+  background-color: #2C3E50;
+  color: #FFFFFF;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.nav-links a {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.auth-links .login-btn {
+  color: #2C3E50;
+  background-color: #FFFFFF;
+  border: 2px solid #2C3E50;
+}
+
+.auth-links .register-btn {
+  background-color: #2ECC71;
+  color: #FFFFFF;
+}
+
+.menu-icon {
+  display: none;
+  color: #FFFFFF;
+}
+
+
+.sidenav-container button {
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.sidenav-container button.login-btn {
+  background-color: #FFFFFF;
+  color: #2C3E50;
+  border: 2px solid #2C3E50;
+}
+
+.sidenav-container button.register-btn {
+  background-color: #2ECC71;
+  color: #FFFFFF;
+}
+
+
+@media (max-width: 768px) {
+  .nav-links, .auth-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
