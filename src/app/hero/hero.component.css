@@ -1,0 +1,63 @@
+.hero {
+  background-image: url('/public/fondo-landing.png');
+  background-size: cover;
+  background-position: center;
+
+  height: 120vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 160px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-content a {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #2ECC71;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content a:hover {
+  background-color: #27AE60;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    padding-left: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .hero-content a {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+}
