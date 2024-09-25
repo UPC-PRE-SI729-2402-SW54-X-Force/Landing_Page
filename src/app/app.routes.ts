@@ -5,6 +5,7 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { SafetyComponent } from './safety/safety.component';
 import { PremiumPlansComponent } from './premium-plans/premium-plans.component'; // Importamos el componente PremiumPlans
+import { TeamComponent } from './team/team.component'; // Importa el nuevo componente
 
 export const routes: Routes = [
   { path: '', component: HeroComponent },
@@ -12,7 +13,8 @@ export const routes: Routes = [
   { path: 'how-it-works', component: HowItWorksComponent },
   { path: 'testimonials', component: TestimonialsComponent },
   { path: 'safety', component: SafetyComponent },
-  { path: 'premium-plans', component: PremiumPlansComponent }, // Añadimos la ruta para PremiumPlansComponent
+  { path: 'premium-plans', component: PremiumPlansComponent },
+  { path: 'team', component: TeamComponent }, // Añade la nueva ruta
 
   { path: '**', redirectTo: '' }
 ];

@@ -7,7 +7,8 @@ import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { SafetyComponent } from './safety/safety.component';
-import { PremiumPlansComponent } from './premium-plans/premium-plans.component'; // Importamos el componente
+import { PremiumPlansComponent } from './premium-plans/premium-plans.component';
+import { TeamComponent } from './team/team.component';  // Importamos el componente de equipo
 
 @Component({
   selector: 'app-root',
@@ -23,7 +24,8 @@ import { PremiumPlansComponent } from './premium-plans/premium-plans.component';
     HowItWorksComponent,
     TestimonialsComponent,
     SafetyComponent,
-    PremiumPlansComponent // Añadimos el componente
+    PremiumPlansComponent,
+    TeamComponent  // Añadimos el componente de equipo
   ]
 })
 export class AppComponent {
