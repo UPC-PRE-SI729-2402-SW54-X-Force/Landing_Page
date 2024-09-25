@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HeroComponent } from './hero/hero.component';
+import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  imports: [RouterModule, CommonModule, NavbarComponent, HeroComponent, WhyChooseUsComponent]
 })
 export class AppComponent {
-  title = 'Landing-Page';
+  title = 'LandingPage';
 }
