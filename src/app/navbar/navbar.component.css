@@ -1,15 +1,17 @@
 .sidenav-container {
-  height: 100vh;
+  height: auto; /* Cambia de 100vh a auto para no forzar el tamaño del contenedor */
 }
 
 .mobile-sidenav {
-  width: 50%;
-  height: 100%;
+  width: 250px; /* Mantén el ancho pequeño para que sea delgado */
+  max-width: 250px;
+  height: auto; /* Ajusta la altura para que sea solo del tamaño necesario */
 }
 
 mat-toolbar {
   background-color: #2C3E50;
   color: #FFFFFF;
+  height: 64px; /* Asegura que el alto de la barra sea consistente */
 }
 
 .logo {
@@ -18,7 +20,6 @@ mat-toolbar {
   border-radius: 50%;
   object-fit: cover;
 }
-
 
 .spacer {
   flex: 1 1 auto;
@@ -47,7 +48,6 @@ mat-toolbar {
   color: #FFFFFF;
 }
 
-
 .sidenav-container button {
   margin-bottom: 10px;
   color: #FFFFFF;
@@ -64,7 +64,7 @@ mat-toolbar {
   color: #FFFFFF;
 }
 
-
+/* Ocultar enlaces de navegación en pantallas pequeñas */
 @media (max-width: 768px) {
   .nav-links, .auth-links {
     display: none;
