@@ -1,0 +1,119 @@
+/* Sección de presentación */
+.premium-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #2c3e50; /* Fondo gris claro */
+}
+
+.premium-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.premium-text h2 {
+  font-size: 36px;
+  color: #ffffff; /* Azul marino */
+  margin-bottom: 20px;
+}
+
+.premium-text p {
+  font-size: 18px;
+  color: #d7d8d8; /* Gris */
+}
+
+.premium-image img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+/* Sección de los planes */
+.premium-plans {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #e67e22; /* Fondo gris claro */
+}
+
+.premium-plans h2 {
+  font-size: 36px;
+  color: #000000; /* Azul marino */
+  margin-bottom: 40px;
+}
+
+.plan-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+  text-align: left;
+}
+
+.plan-card h3 {
+  font-size: 24px;
+  color: #2ECC71; /* Verde esmeralda */
+  margin-bottom: 10px;
+}
+
+.plan-card .price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2C3E50; /* Azul marino */
+  margin-bottom: 20px;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan-card ul li {
+  font-size: 16px;
+  color: #2e2e2e; /* Gris */
+  margin-bottom: 10px;
+}
+
+.plan-card .btn-subscribe {
+  display: inline-block;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #2ECC71; /* Verde esmeralda */
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plan-card .btn-subscribe:hover {
+  background-color: #27AE60; /* Verde esmeralda más oscuro */
+}
+
+.plan-card .cancel-text {
+  font-size: 14px;
+  color: #7f8c8d; /* Gris */
+  margin-top: 10px;
+}
+
+.most-popular {
+  border: 2px solid #E67E22; /* Naranja vibrante */
+}
+
+.popular-badge {
+  background-color: #E67E22; /* Naranja vibrante */
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
