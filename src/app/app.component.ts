@@ -4,7 +4,8 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
-import { HowItWorksComponent } from './how-it-works/how-it-works.component'; // Importamos el componente
+import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component'; // Importamos el componente
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component'; // 
     NavbarComponent,
     HeroComponent,
     WhyChooseUsComponent,
-    HowItWorksComponent // Añadimos el componente
+    HowItWorksComponent,
+    TestimonialsComponent // Añadimos el componente
   ]
 })
 export class AppComponent {
