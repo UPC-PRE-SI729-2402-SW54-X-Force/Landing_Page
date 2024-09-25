@@ -1,12 +1,12 @@
 .testimonials {
   padding: 60px 20px;
-  background-color: #2ecc71; /* Fondo gris claro */
+  background-color: #2ecc71;
   text-align: center;
 }
 
 .testimonials h2 {
   font-size: 36px;
-  color: #2C3E50; /* Azul marino */
+  color: #2C3E50;
   margin-bottom: 40px;
 }
 
@@ -29,18 +29,18 @@
 
 .testimonial-card .stars {
   font-size: 20px;
-  color: #FFD700; /* Color de las estrellas doradas */
+  color: #FFD700;
 }
 
 .testimonial-card h3 {
   font-size: 24px;
-  color: #2ECC71; /* Verde esmeralda */
+  color: #2ECC71;
   margin-bottom: 10px;
 }
 
 .testimonial-card p {
   font-size: 16px;
-  color: #7f8c8d; /* Gris */
+  color: #7f8c8d;
   margin-bottom: 20px;
 }
 
@@ -58,10 +58,10 @@
 
 .user-info .name {
   font-size: 18px;
-  color: #2C3E50; /* Azul marino */
+  color: #2C3E50;
 }
 
 .user-info .role {
   font-size: 14px;
-  color: #7f8c8d; /* Gris claro */
+  color: #7f8c8d;
 }
