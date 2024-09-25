@@ -1,0 +1,60 @@
+.safety {
+  padding: 60px 20px;
+  background-color: #f9f9f9; /* Fondo gris claro */
+  text-align: center;
+}
+
+.safety h2 {
+  font-size: 36px;
+  color: #2C3E50; /* Azul marino */
+  margin-bottom: 40px;
+}
+
+.safety-measures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.measure {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.measure img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.measure h3 {
+  font-size: 24px;
+  color: #2ECC71; /* Verde esmeralda */
+  margin-bottom: 10px;
+}
+
+.measure p {
+  font-size: 16px;
+  color: #7f8c8d; /* Gris */
+  margin-bottom: 20px;
+}
+
+.btn-learn-more {
+  display: inline-block;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #2ECC71; /* Verde esmeralda */
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn-learn-more:hover {
+  background-color: #27AE60; /* Verde esmeralda más oscuro */
+}
