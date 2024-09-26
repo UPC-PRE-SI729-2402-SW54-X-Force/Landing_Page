@@ -1,0 +1,54 @@
+.why-choose-us {
+  padding: 50px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 36px;
+  color: #2C3E50;
+  margin-bottom: 40px;
+}
+
+.reasons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.reason {
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.reason img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.reason h3 {
+  font-size: 24px;
+  color: #2ECC71;
+  margin-bottom: 15px;
+}
+
+.reason p {
+  font-size: 16px;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+  .reasons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reason {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+}
